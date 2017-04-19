@@ -1,0 +1,111 @@
+body {
+  background-color: #BAF5B3;
+}
+
+.imagen-seccion {    /*contenedor de la imagen*/
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 6% 2%;
+}
+
+.imagenes-grid {
+  padding: 0;
+  display: inline;
+
+}
+
+.imagenes-grid li{
+  width: 200px;
+  height: 330px;
+  display: inline-block;
+  margin: 30px;
+}
+
+.caja-imagen {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out, transform 0.3s ease-in out;/*cambia de tamaño la imagen al pasar el cursor*/
+}
+
+.caja-imagen:hover {
+  transform: scale(1.05);
+}
+
+.chivis {
+  background: linear-gradient(rgba(255,105,180, 0.3),rgba(255,182,193, 0.3)),
+  url(../img/chivis.jpg);
+}
+
+.gabyLu {
+  background: linear-gradient(rgba(255,105,180, 0.3),rgba(255,182,193, 0.3)),
+  url(../img/gabyLu.jpg);
+}
+
+.grace {
+  background: linear-gradient(rgba(255,105,180, 0.3),rgba(255,182,193, 0.3)),
+  url(../img/grace.jpg);
+}
+
+.josh {
+  background: linear-gradient(rgba(255,105,180, 0.3),rgba(255,182,193, 0.3)),
+  url(../img/josh.jpg);
+}
+
+.less {
+  background: linear-gradient(rgba(255,105,180, 0.3),rgba(255,182,193, 0.3)),
+  url(../img/less.jpg);
+}
+
+.nanys {
+  background: linear-gradient(rgba(255,105,180, 0.3),rgba(255,182,193, 0.3)),
+  url(../img/nanys.jpg);
+}
+
+.nelly {
+  background: linear-gradient(rgba(255,105,180, 0.3),rgba(255,182,193, 0.3)),
+  url(../img/nelly.jpg);
+}
+
+.queen {
+  background: linear-gradient(rgba(255,105,180, 0.3),rgba(255,182,193, 0.3)),
+  url(../img/queen.jpg);
+}
+
+.ivan {
+  background: linear-gradient(rgba(255,105,180, 0.3),rgba(255,182,193, 0.3)),
+  url(../img/ivan.jpg);
+}
+
+.todos {
+  background: linear-gradient(rgba(255,105,180, 0.3),rgba(255,182,193, 0.3)),
+  url(../img/todos.jpeg);
+  position: absolute;
+  width: 560px;
+  height: 416px;
+}
+
+.nombre{
+  position: absolute;
+  width: inherit;
+  height: inherit;
+}
+
+.nombre h3 {
+  font-family: 'Devonshire',cursive;
+  font-weight: 400;
+  color: #800080;
+  font-size: 35px;
+  margin:  50 200px;
+  padding: 280px 0 0 0;
+  line-height: 1.5;
+}
+
+h1{
+  font-family: 'Devonshire',cursive;
+  text-align: center;
+  font-size: 80px;
+  color: #BA55D3;
+}
